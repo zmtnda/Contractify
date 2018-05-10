@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { TeacherComponent } from './teacher/teacher.component';
 import { FarmownerComponent } from './farmowner/farmowner.component';
 import { HomeComponent } from './home/home.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     AdminComponent,
     TeacherComponent,
     FarmownerComponent,
-    HomeComponent
+    HomeComponent,
+    SidenavComponent
   ],
   imports: [
     BrowserModule,
