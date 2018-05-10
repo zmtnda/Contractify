@@ -11,9 +11,10 @@ import { TeacherComponent } from './teacher/teacher.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent }
-  ,{path: 'admin', component: AdminComponent}
-  ,{path: 'teacher', component: TeacherComponent}
-  ,{path: 'farmowner', component: FarmownerComponent}
+
+  ,{path: 'admin', loadChildren: './admin/admn.module#AdminModule'}
+  ,{path: 'teacher', loadChildren: './teacher/teacher.module#TeacherModule'}
+  ,{path: 'farmowner', loadChildren: './farmowner/farmowner.module#FarmownerModule'}
 ];
 
 @NgModule({
