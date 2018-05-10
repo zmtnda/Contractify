@@ -7,7 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 // import { TeacherComponent } from './teacher/teacher.component';
 // import { FarmownerComponent } from './farmowner/farmowner.component';
 import { HomeComponent } from './home/home.component';
-import { SidenavComponent } from './sidenav/sidenav.component';
+
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TeacherModule } from './teacher/teacher.module'
 
@@ -18,7 +18,6 @@ import { TeacherModule } from './teacher/teacher.module'
     // TeacherComponent,
     // FarmownerComponent,
     HomeComponent,
-    SidenavComponent,
     WelcomeComponent
   ],
   imports: [
