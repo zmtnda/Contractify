@@ -26,6 +26,7 @@
               "src/styles.css"
             ],
             "scripts": [
+              "../node_modules/chart.js/dist/Chart.min.js",
               "src/js/plugins/jquery/jquery.min.js",
               "src/js/plugins/jquery/jquery-ui.min.js",
               "src/js/plugins/bootstrap/bootstrap.min.js",
