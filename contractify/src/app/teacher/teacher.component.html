@@ -13,7 +13,7 @@
                 <div ngSwitch="{{path}}">
                     <div *ngSwitchCase="'address'" [ngClass]="'one'"><app-studentprofile></app-studentprofile></div>
                     <div *ngSwitchCase="'dashboard'" [ngClass]="'two'"><app-dashboard></app-dashboard></div>
-                    <div *ngSwitchDefault></div>
+                    <div *ngSwitchDefault><app-dashboard></app-dashboard></div>
                   </div>    
             </div>
             <!-- END PAGE CONTENT -->
