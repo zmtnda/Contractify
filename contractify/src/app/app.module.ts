@@ -10,7 +10,6 @@ import { HomeComponent } from './home/home.component';
 
 import { WelcomeComponent } from './welcome/welcome.component';
 import { TeacherModule } from './teacher/teacher.module';
-import { DashboardComponent } from './dashboard/dashboard.component'
 
 @NgModule({
   declarations: [
@@ -20,7 +19,6 @@ import { DashboardComponent } from './dashboard/dashboard.component'
     // FarmownerComponent,
     HomeComponent,
     WelcomeComponent,
-    DashboardComponent
   ],
   imports: [
     BrowserModule,
