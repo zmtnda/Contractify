@@ -7,6 +7,7 @@ import {Router, ActivatedRoute} from '@angular/router';
 })
 export class TeacherComponent implements OnInit {
 
+  path: any
 
   constructor(private router: Router, private route: ActivatedRoute) { }
 
@@ -15,6 +16,7 @@ export class TeacherComponent implements OnInit {
   }
   navigate(path) {
     console.log(path)
+    this.path = path
     // this.router.navigate([{outlets: {primary: path, sidemenu:path}}], 
     //                      {relativeTo: this.route});
   }
