@@ -9,7 +9,8 @@ import { AppRoutingModule } from './app-routing.module';
 import { HomeComponent } from './home/home.component';
 
 import { WelcomeComponent } from './welcome/welcome.component';
-import { TeacherModule } from './teacher/teacher.module'
+import { TeacherModule } from './teacher/teacher.module';
+import { DashboardComponent } from './dashboard/dashboard.component'
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { TeacherModule } from './teacher/teacher.module'
     // TeacherComponent,
     // FarmownerComponent,
     HomeComponent,
-    WelcomeComponent
+    WelcomeComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,

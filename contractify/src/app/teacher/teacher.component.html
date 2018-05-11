@@ -12,7 +12,7 @@
             <div class="page-content" style="padding-left:220px;">
                 <div ngSwitch="{{path}}">
                     <div *ngSwitchCase="'address'" [ngClass]="'one'"><app-studentprofile></app-studentprofile></div>
-                    <div *ngSwitchCase="'someotherpages'" [ngClass]="'two'">I am Odd.</div>
+                    <div *ngSwitchCase="'dashboard'" [ngClass]="'two'"><app-dashboard></app-dashboard></div>
                     <div *ngSwitchDefault>Nothing Found.</div>
                   </div>    
             </div>
