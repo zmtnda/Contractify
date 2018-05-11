@@ -36,6 +36,7 @@ export class StudentprofileComponent implements OnInit {
     
   }
   addToAttendance(index){
+    console.log('test')
     this.people[index].numberOfdaysAttended ++;
 
   }
