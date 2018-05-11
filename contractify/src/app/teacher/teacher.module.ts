@@ -4,6 +4,7 @@ import { SidenavComponent } from '../sidenav/sidenav.component';
 
 import { TeacherRoutingModule } from './teacher-routing.module';
 import { TeacherComponent } from './teacher.component';
+import { StudentprofileComponent } from './studentprofile/studentprofile.component';
 
 @NgModule({
   imports: [
@@ -12,7 +13,8 @@ import { TeacherComponent } from './teacher.component';
   ],
   declarations: [
     TeacherComponent,
-    SidenavComponent
+    SidenavComponent,
+    StudentprofileComponent
   ]
 })
 export class TeacherModule { }
